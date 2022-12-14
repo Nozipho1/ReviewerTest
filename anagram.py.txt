@@ -1,0 +1,15 @@
+Correctness(2/4)
+The program is not yet serving its function but you're almost there! Hint take another look at line 9.
+
+Efficiency(3/4)
+You've shown a good understanding of loops and have used them effectively in this exercise. Well done.
+
+Style(2/4)
+Please check pep 8 style guidelines, line 4 to line 14 need to be indented, hint don't forget to indent your various loops accordingly. Also make sure you are defining your functions before the main method. Please make sure to pay attention to your spacing as well and lastly pay attention to your naming convention, python uses lower case letters and snake case.
+
+Documentation(1/4)
+Please add comments where neccessary, you can start by defining what your function does and the purpose of the program.
+
+Overall feedback:
+
+You've shown a good understanding of the principals behind competing this task, all you need to do is fix the minor errors and your program will run perfectly. Good job and keep up the good work!
