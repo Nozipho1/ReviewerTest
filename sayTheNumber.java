@@ -50,5 +50,7 @@ public class sayTheNumber {
         int n4 = 100;
 
         System.out.println(sayNumber(n1)+"\n"+sayNumber(n2)+"\n"+sayNumber(n3)+"\n"+sayNumber(n4));
+        
+        // reference - https://www.codeproject.com/Questions/5344056/Please-assist-convert-numbers-from-0-to-9999999999
     }
 }
