@@ -1,13 +1,13 @@
 public class sayTheNumber {
     // initialise numbers from which to extract words.
-    // group numbers into according list strings.
+    // group numbers into according string lists.
     private static String[] lessThanTwenty = {"","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
 
     private static String[] tens = {"","","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
 
     private static String[] clusters = {"","Thousand","Million","Billion","Trillion"};
 
-    // Define function that takes the numerical value and breaks it into parts with 3 digits each.
+    // Define function that takes the numerical value and breaks it into 3 digit values.
 
     public static String sayNumber(long num) {
 
@@ -33,7 +33,7 @@ public class sayTheNumber {
 
     }
 
-    // define function that captures the 3-digit number and builds the string using recursion.
+    // define function that captures the 3 digit number and builds the string using recursion.
     private static String convertThreeDigit(long num){
         // initialise base case
         if(num==0)return "";
@@ -42,7 +42,7 @@ public class sayTheNumber {
         else return lessThanTwenty[(int)num/100] + " "+"Hundred"+" "+convertThreeDigit(num%100);
     }
 
-    // test function
+    // test function in main method
     public static void main(String[] args) {
         int n1 = 0;
         long n2 = 11;
