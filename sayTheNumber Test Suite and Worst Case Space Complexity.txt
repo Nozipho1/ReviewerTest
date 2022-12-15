@@ -1,0 +1,22 @@
+TEST1:	
+Print 100
+
+GOAL:		
+To see whether the method for printing 3 digit numbers includes 100, it does
+
+
+TEST2:									
+Initialise numbers as both integers and long numbers
+
+GOAL:
+To see whether both parameters work, no matter the value of the number, they do.
+
+TEST3:
+Initialise a number as a double to be printed
+
+GOAL:
+To see whether function includes doubles/floats in its implementation, it doesn't.
+
+Worst Case Space Complexity:
+
+One would need to create functions that work for each data type in order for the program to run. For example if I need the program to display decimals as well a separate function would need to be created for that just like with type long which type int falls under.
